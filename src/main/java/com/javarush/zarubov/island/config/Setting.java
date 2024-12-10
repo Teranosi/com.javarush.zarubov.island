@@ -5,17 +5,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import com.javarush.zarubov.island.entity.organizms.animals.herbivores.*;
+import com.javarush.zarubov.island.entity.organizms.animals.predators.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.SneakyThrows;
 import com.javarush.zarubov.island.entity.organizms.Organism;
-import com.javarush.zarubov.island.entity.organizms.animals.herbivores.Deer;
-import com.javarush.zarubov.island.entity.organizms.animals.herbivores.Horse;
-import com.javarush.zarubov.island.entity.organizms.animals.herbivores.Mouse;
-import com.javarush.zarubov.island.entity.organizms.animals.herbivores.Rabbit;
-import com.javarush.zarubov.island.entity.organizms.animals.predators.Bear;
-import com.javarush.zarubov.island.entity.organizms.animals.predators.Wolf;
 import com.javarush.zarubov.island.entity.organizms.plants.Plant;
 
 import java.net.URL;
@@ -31,7 +27,9 @@ public class Setting {
     private static final Class<?>[] TYPES = new Class[]{
             Wolf.class, Bear.class,
             Horse.class, Mouse.class, Deer.class, Rabbit.class,
-            Plant.class,};
+            Plant.class, Boa.class, Eagle.class, Fox.class,
+            Boar.class, Buffalo.class, Caterpillar.class,
+            Duck.class, Goat.class, Sheep.class};
     public static final Organism[] PROTOTYPES = EntityScanner.createPrototypes(TYPES);
 
     //======================== SAFE_THREAD_SINGLETON =============================

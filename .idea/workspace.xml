@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9d7d579-327f-4707-87af-1e182cd2e160" name="Changes" comment="Новый скелет для проекта">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/predators/Boa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/predators/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/predators/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/herbivores/Boar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/herbivores/Buffalo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/herbivores/Caterpillar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/herbivores/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/herbivores/Goat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/entity/organizms/animals/herbivores/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/services/OrganismWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/services/OrganismWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/config/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javarush/zarubov/island/config/Setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javarush/zarubov/island/config/Setting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javarush/zarubov/island/config/Setting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javarush/zarubov/island/services/OrganismWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/javarush/zarubov/island/services/OrganismWorker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +38,12 @@
     &quot;assignee&quot;: &quot;Teranosi&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Teranosi/com.javarush.zarubov.island.git&quot;,
-    &quot;accountId&quot;: &quot;b60fc226-a309-4d77-8dbc-b6a922a3963b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Teranosi/com.javarush.zarubov.island.git",
+    "accountId": "142ae5d7-ac71-46ab-bcb4-0cf87772f1bf"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -135,6 +141,7 @@
       <workItem from="1733762065288" duration="183000" />
       <workItem from="1733762551037" duration="725000" />
       <workItem from="1733827377057" duration="1359000" />
+      <workItem from="1733831986343" duration="2995000" />
     </task>
     <task id="LOCAL-00001" summary="Temp message">
       <option name="closed" value="true" />
