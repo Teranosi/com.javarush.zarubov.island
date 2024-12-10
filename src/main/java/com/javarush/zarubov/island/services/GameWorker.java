@@ -17,6 +17,7 @@ public class GameWorker extends Thread {
     public static final int CORE_POOL_SIZE = 4;
     private final Game game;
     private final int PERIOD = Setting.get().getPeriod();
+    private int day;
 
     @Override
     public void run() {
@@ -47,6 +48,7 @@ public class GameWorker extends Thread {
     @SneakyThrows
     private void awaitPool(View view, ExecutorService servicePool) {
         if (servicePool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)) {
+            System.out.println("Day: " + day++);
             view.showScale();
             view.showMap();
             view.showStatistics();
