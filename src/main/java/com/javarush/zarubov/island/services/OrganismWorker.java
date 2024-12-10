@@ -4,6 +4,7 @@ import com.javarush.zarubov.island.entity.map.Cell;
 import com.javarush.zarubov.island.entity.map.GameMap;
 import com.javarush.zarubov.island.entity.organizms.Organism;
 import com.javarush.zarubov.island.entity.organizms.Organisms;
+import com.javarush.zarubov.island.exception.GameException;
 
 import java.util.Objects;
 import java.util.Queue;
@@ -28,10 +29,7 @@ public class OrganismWorker implements Runnable {
                 try {
                     processOneCell(cell);
                 } catch (Exception e) {
-                    //TODO replace it -> throw...
-                    e.printStackTrace();
-                    System.err.println("OMG. Debug it!");
-                    System.exit(0);
+                    throw new GameException("OMG. Debug it!");
                 }
             }
         }
